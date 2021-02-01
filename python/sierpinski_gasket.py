@@ -36,7 +36,7 @@ def main():
     plot([midpoint_x], [midpoint_y], '#FF0000')
 
     iteration = 0
-    while iteration <= 1:
+    while iteration <= 2000:
         dice = roll_dice()
         print(f"Iteration :{iteration} ; Dice:{dice}")
         if (dice <= 2):
